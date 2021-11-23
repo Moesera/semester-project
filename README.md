@@ -1,2 +1,3 @@
 # semester-project
-This is the reprository for my semester project Front-End Development 2021
+
+This is the reprository for my semester project in Front-End Development november to december 17. 2021
