@@ -1,0 +1,34 @@
+@import "/css/Import/variables.css";
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+body {
+}
+
+header {
+  background-color: var(--primary-color);
+}
+
+.logo {
+  width: 150px;
+}
+
+.planner-icon {
+  width: 30px;
+}
+
+.place-marker {
+  width: 30px;
+}
+
+.tickets-icon {
+  width: 30px;
+}
