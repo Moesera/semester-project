@@ -2,7 +2,12 @@
 
 @font-face {
   font-family: "Noto sans";
-  src: url();
+  src: url(../fonts/Noto_Sans/NotoSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Noto sans";
+  src: url(../fonts/Noto_Sans/NotoSans-Regular.ttf) format("truetype");
 }
 
 @font-face {
@@ -17,6 +22,7 @@
   src: url(../fonts/Merriweather_Sans/static/MerriweatherSans-Regular.ttf)
     format("truetype");
 }
+
 /* body */
 
 body {
@@ -24,12 +30,16 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-color: var(--primary-color);
+}
+
+main {
+  background-color: var(--primary-color);
 }
 
 header {
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 header,
@@ -38,16 +48,19 @@ footer {
   display: flex;
 }
 
-.logo-container {
+.head-container {
   display: flex;
   flex: 1;
+}
+
+.logo-container {
+  display: flex;
+  flex: 2;
 }
 
 .icons-container {
   display: flex;
   align-items: center;
-  flex: 1;
-  justify-content: flex-end;
 }
 
 .icons-container div {
@@ -59,9 +72,9 @@ footer {
 }
 
 #hamburger-menu:checked ~ nav {
-  display: flex;
+  display: block;
   flex: 1;
-  justify-content: center;
+  flex-basis: 100%;
 }
 
 .hamburger-label {
@@ -85,14 +98,51 @@ nav li {
 
 nav a {
   text-decoration: none;
+  font-family: var(--tertiary-font);
+  font-weight: bold;
   background-color: var(--secondary-color);
   color: #ffffff;
-  padding: 5px;
+  padding: 8px;
   display: flex;
 }
 
 footer {
   margin-top: auto;
+  flex-direction: column;
+  text-align: center;
+  border-top-style: solid;
+  border-width: 1px;
+}
+
+footer div {
+  margin: 10px 0px;
+}
+
+footer input[type="text"] {
+  border: none;
+  border-style: solid;
+  border-width: 1px;
+  padding: 7px 5px;
+  margin: 0 auto;
+}
+
+footer button {
+  border: none;
+  font-family: var(--tertiary-font);
+  font-weight: bold;
+  background-color: var(--tertiary-color);
+  color: #ffffff;
+  padding: 7px 15px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+  font-family: var(--tertiary-font);
+  font-weight: bold;
+  color: var(--tertiary-color);
+  text-decoration: underline;
 }
 
 /* Logo and icons styling */
@@ -112,4 +162,16 @@ footer {
 
 .tickets-icon {
   width: var(--icons-small);
+}
+
+/* Button */
+
+.cta {
+  text-decoration: none;
+  font-family: var(--tertiary-font);
+  font-weight: bold;
+  background-color: var(--tertiary-color);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
