@@ -1,34 +1,115 @@
 @import "/css/Import/variables.css";
 
 @font-face {
-  font-family: ;
+  font-family: "Noto sans";
   src: url();
 }
 
 @font-face {
-  font-family: ;
-  src: url();
+  font-family: muli, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  src: url("https://use.typekit.net/hyf5kbp.css");
 }
 
+@font-face {
+  font-family: "Merriweather";
+  src: url(../fonts/Merriweather_Sans/static/MerriweatherSans-Regular.ttf)
+    format("truetype");
+}
+/* body */
+
 body {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-  background-color: var(--primary-color);
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+header,
+footer {
+  background: var(--primary-color);
+  display: flex;
+}
+
+.logo-container {
+  display: flex;
+  flex: 1;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.icons-container div {
+  margin: 10px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.hamburger-label {
+  font-size: 1.8em;
+  margin: 10px;
+}
+
+nav {
+  display: none;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0 auto;
+}
+
+nav li {
+  display: block;
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  padding: 5px;
+  display: flex;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* Logo and icons styling */
+
 .logo {
-  width: 150px;
+  width: 110px;
+  margin-left: 2%;
 }
 
 .planner-icon {
-  width: 30px;
+  width: var(--icons-small);
 }
 
 .place-marker {
-  width: 30px;
+  width: var(--icons-small);
 }
 
 .tickets-icon {
-  width: 30px;
+  width: var(--icons-small);
 }

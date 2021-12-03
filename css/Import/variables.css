@@ -1,8 +1,9 @@
 :root {
-  --primary-color: "#DDDDDD";
-  --secondary-color: "#1F4F27";
-  --tertiary-color: "#104D45";
-  --quaternary-color: "#0E0E0E";
-  --header-font: "#";
-  --secondary-font: "#";
+  --primary-color: #dddddd;
+  --secondary-color: #1f4f27;
+  --tertiary-color: #104d45;
+  --quaternary-color: #0e0e0e;
+  --header-font: muli;
+  --secondary-font: "Merriwather";
+  --icons-small: 30px;
 }

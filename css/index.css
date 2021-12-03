@@ -1,1 +1,17 @@
 @import "/css/Import/variables.css";
+
+/* index.css */
+
+.welcome-text {
+  font-family: var(--header-font);
+  font-size: 0.7em;
+  font-weight: bolder;
+  border-style: solid;
+  margin: 5% 2%;
+  border-radius: 5px;
+  border-width: 4px;
+}
+
+.welcome-text h1 {
+  margin-left: 16px;
+}
