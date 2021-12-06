@@ -7,11 +7,63 @@
   font-size: 0.7em;
   font-weight: bolder;
   border-style: solid;
-  margin: 5% 2%;
+  margin: 5% 5%;
   border-radius: 5px;
   border-width: 4px;
 }
 
 .welcome-text h1 {
   margin-left: 16px;
+}
+
+.img-border_s {
+  display: flex;
+  justify-content: center;
+}
+
+.img-size_s {
+  width: 89%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--quartery-color);
+}
+
+.text-container {
+  margin: 0 auto;
+}
+
+.explore-exhibitions {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Common styles */
+.margin-gap {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cta_box {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.bottom-gap {
+  margin-top: 20px;
+  margin-bottom: 50px;
 }

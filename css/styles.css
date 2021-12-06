@@ -175,3 +175,31 @@ footer button {
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+/* Gradient section header */
+
+.gradient-border {
+  background-image: linear-gradient(
+    to left,
+    var(--quaternary-color),
+    var(--secondary-color)
+  );
+  color: #ffffff;
+  font-family: var(--header-font);
+  margin: 0 auto;
+}
+
+.gradient-border h2 {
+  margin: 0 auto;
+  width: 91%;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: var(--tertiary-font);
+}
