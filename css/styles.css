@@ -123,7 +123,6 @@ footer input[type="text"] {
   border-style: solid;
   border-width: 1px;
   padding: 7px 5px;
-  margin: 0 auto;
 }
 
 footer button {
@@ -174,6 +173,25 @@ footer button {
   color: #ffffff;
   padding: 5px 10px;
   border-radius: 5px;
+  width: 120px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.donate {
+  margin: 0 auto;
+}
+
+.newsletter-signup {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up_cta {
+  text-transform: uppercase;
 }
 
 /* Gradient section header */
