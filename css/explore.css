@@ -57,7 +57,11 @@
 }
 
 .margin-gap {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.margin-bottom {
+  margin-bottom: 60px;
 }
 
 /*Kids dropdown menu */
@@ -116,7 +120,7 @@
 
 /* Dropdown menu */
 
-ul {
+.categories-box ul {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -124,7 +128,7 @@ ul {
   display: none;
 }
 
-ul a {
+.dropdown-box a {
   text-decoration: none;
   font-family: var(--header-font);
   font-weight: bold;

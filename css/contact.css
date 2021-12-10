@@ -1,0 +1,67 @@
+@import "/css/Import/variables.css";
+
+h4 {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+form,
+label {
+  font-family: var(--tertiary-font);
+}
+
+/* Contact Containers */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.flex-box2 {
+  display: flex;
+  flex-basis: 81%;
+  justify-content: center;
+}
+
+.add-file-flex {
+  display: flex;
+  flex-basis: 100%;
+}
+
+/* Inputs */
+.flex-box1 input[type="text"] {
+  width: 80vw;
+  padding: 5px 5px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 15vh;
+  width: 81vw;
+}
+
+.flex-box1 input[type="text"],
+textarea {
+  border-radius: 5px;
+  border: none;
+  border-style: solid;
+  border-width: thin;
+}
