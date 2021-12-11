@@ -277,5 +277,6 @@ p {
 
   .hide-whn_small {
     display: flex;
+    align-items: center;
   }
 }
