@@ -2,18 +2,30 @@
 
 /* index.css */
 
-.welcome-text {
-  font-family: var(--header-font);
-  font-size: 0.7em;
-  font-weight: bolder;
-  border-style: solid;
-  margin: 5% 5%;
-  border-radius: 5px;
-  border-width: 4px;
+.welcome-text_l {
+  margin-top: 90px;
 }
 
-.welcome-text h1 {
-  margin-left: 16px;
+.welcome-text_l svg {
+  width: 35vw;
+  height: 28vw;
+}
+
+.welcome-text_s svg {
+  width: 90vw;
+  height: 18vh;
+}
+
+.welcome-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+.welcome-info_box {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
 
 .img-border_s {
@@ -29,7 +41,7 @@
 }
 
 .text-container {
-  margin: 0 auto;
+  flex-basis: 100%;
 }
 
 .explore-exhibitions {
@@ -51,6 +63,10 @@ p {
   margin-bottom: 20px;
 }
 
+.for-kids {
+  margin-bottom: 20px;
+}
+
 /* Common styles */
 .margin-gap {
   margin-top: 20px;
@@ -66,4 +82,71 @@ p {
 .bottom-gap {
   margin-top: 20px;
   margin-bottom: 50px;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+@media (min-width: 666px) {
+  .hide-mobile {
+    display: flex;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  .welcome-info_box {
+    margin-top: 88px;
+    width: 58vw;
+  }
+}
+
+@media (min-width: 730px) {
+  .explore-exhibitions {
+    flex-direction: row;
+  }
+
+  .exhibition-places {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .special-events {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .for-kids {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  .for-teachers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .together-container {
+    display: flex;
+  }
+
+  .research-container {
+    display: flex;
+  }
+
+  .for-researchers {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .img-border_s {
+    flex: 1;
+  }
 }

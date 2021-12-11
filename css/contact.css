@@ -3,7 +3,7 @@
 h4 {
   font-family: var(--secondary-font);
   color: var(--secondary-color);
-  width: 90%;
+  width: 82%;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -21,6 +21,7 @@ label {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .flex-box1 {
@@ -37,13 +38,9 @@ label {
 
 .flex-box2 {
   display: flex;
-  flex-basis: 81%;
-  justify-content: center;
-}
-
-.add-file-flex {
-  display: flex;
-  flex-basis: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 82%;
 }
 
 /* Inputs */
@@ -64,4 +61,23 @@ textarea {
   border: none;
   border-style: solid;
   border-width: thin;
+}
+
+.file-input_box {
+  width: 55vw;
+}
+
+input[type="file"] {
+  border: none;
+}
+
+.flex-box2 input[type="button"] {
+  border: none;
+  text-decoration: none;
+  font-family: var(--tertiary-font);
+  font-weight: bold;
+  background-color: var(--tertiary-color);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
