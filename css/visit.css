@@ -3,7 +3,7 @@
 .hours-box {
   display: flex;
   align-items: center;
-  width: 90vw;
+  width: 92%;
   margin: 0 auto;
 }
 
@@ -31,6 +31,38 @@
   margin-bottom: 20px;
 }
 
+.location-text {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .margin-bottom {
   margin-bottom: 50px;
+}
+
+@media (min-width: 666px) {
+}
+
+@media (min-width: 730px) {
+  .hours-box {
+    width: 95%;
+  }
+
+  .flex-wrapper {
+    display: flex;
+  }
+
+  .text-wrapper {
+    flex: 1;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .location-text {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin-top: 0px;
+  }
 }
