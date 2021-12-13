@@ -142,3 +142,6 @@
   border-bottom: none;
   padding: 10px;
 }
+
+@media (min-width: 666px) {
+}
