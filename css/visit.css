@@ -31,6 +31,11 @@
   margin-bottom: 20px;
 }
 
+.about-us_text {
+  margin: 0 auto;
+  width: 90%;
+}
+
 .location-text {
   margin: 0 auto;
   width: 90%;
@@ -40,9 +45,6 @@
 
 .margin-bottom {
   margin-bottom: 50px;
-}
-
-@media (min-width: 666px) {
 }
 
 @media (min-width: 730px) {
@@ -64,5 +66,9 @@
     justify-content: center;
     flex: 1;
     margin-top: 0px;
+  }
+
+  .about-us_text {
+    width: 95%;
   }
 }
