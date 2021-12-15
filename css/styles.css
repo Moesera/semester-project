@@ -61,7 +61,7 @@ footer {
 .icons-container div {
   margin: 10px;
 }
-
+/* Hamburger menu */
 #hamburger-menu {
   display: none;
 }
@@ -108,6 +108,7 @@ nav a:hover {
   border-style: solid;
   border-width: medium;
 }
+/* Footer */
 footer {
   margin-top: auto;
   flex-direction: column;
@@ -143,6 +144,13 @@ footer button {
 }
 
 footer button:hover {
+  background-color: var(--primary-color);
+  border-style: solid;
+  border-width: medium;
+  color: var(--quaternary-color);
+}
+
+.current {
   background-color: var(--primary-color);
   border-style: solid;
   border-width: medium;
