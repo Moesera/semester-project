@@ -289,6 +289,10 @@ p {
     width: 50vw;
     margin: 0 auto;
   }
+
+  footer input[type="text"] {
+    width: 42vw;
+  }
 }
 
 @media (min-width: 730px) {
@@ -332,6 +336,10 @@ p {
     flex-direction: column;
     flex-basis: 100%;
     align-content: flex-start;
+  }
+
+  footer input[type="text"] {
+    width: 47vw;
   }
 
   .hide-whn_small {
