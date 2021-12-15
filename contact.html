@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width , initial-scale=1.0">
+  <meta name="description" content="Contact us" />
   <script src="https://kit.fontawesome.com/d527618ed6.js" crossorigin="anonymous"></script>
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/contact.css" rel="stylesheet">
@@ -34,7 +35,7 @@
         <li><a href="special-events.html">Special Events & Exhibition</a></li>
         <li><a href="explore.html">Explore</a></li>
         <li><a href="get-involved.html">Get involved</a></li>
-        <li><a href="#">About us</a></li>
+        <li><a href="#about-us">About us</a></li>
         <li><a href="contact.html"class="current">Contact</a></li>
       </ul>
     </nav>
@@ -47,15 +48,15 @@
     <div>
       <h4>For researchers and internships please add a comment and upload your CV. </h4>
     </div>
-    <section class="flex-container">
+    <section action="form-success.php" method="POST" class="flex-container">
       <div class="flex-box1">
         <div>
           <form>Email:</form>
-            <input type="text">
+            <input type="email" name="email" required>
         </div>
         <div>
           <form>Full Name:</form>
-          <input type="text">
+          <input type="text" name="fullname" required>
         </div>
       </div>
           <div class="comment-box">
@@ -67,7 +68,7 @@
             <input type="file">
           </div>
           <div>
-            <input type="button" value="Send">
+            <input type="submit" value="Send">
           </div>
         </div>
     </section>
@@ -82,7 +83,7 @@
       <a class="donate cta">Donate</a>
     </div>
       <div class="news-signup">
-        <input type="text" placeholder="Sign up for our news letter"><button>sign up</button>
+        <input type="text" placeholder="Sign up for our news letter"><button>Sign up</button>
       </div>
       <div class="footer-links">
         <a>Contact us</a>
@@ -90,6 +91,7 @@
             <a>About us</a>
               <a>Get involved</a>
           </div>
+          &copy; Tony Erlandsen | Community Science Museum
         </div>
       </div>
       </footer>

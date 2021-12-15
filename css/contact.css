@@ -50,13 +50,20 @@ label {
   margin-bottom: 20px;
 }
 
+input[type="email"] {
+  width: 80vw;
+  padding: 5px 5px;
+  margin-bottom: 20px;
+}
+
 textarea {
   height: 15vh;
   width: 81vw;
 }
 
 .flex-box1 input[type="text"],
-textarea {
+textarea,
+input[type="email"] {
   border-radius: 5px;
   border: none;
   border-style: solid;
@@ -71,7 +78,7 @@ input[type="file"] {
   border: none;
 }
 
-.flex-box2 input[type="button"] {
+.flex-box2 input[type="submit"] {
   border: none;
   text-decoration: none;
   font-family: var(--tertiary-font);
@@ -99,6 +106,11 @@ input[type="file"] {
   }
 
   .flex-box1 input[type="text"] {
+    width: 41vw;
+    padding: 10px 0px;
+  }
+
+  input[type="email"] {
     width: 41vw;
     padding: 10px 0px;
   }

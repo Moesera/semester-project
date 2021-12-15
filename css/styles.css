@@ -99,8 +99,15 @@ nav a {
   color: #ffffff;
   padding: 8px;
   display: flex;
+  border-radius: 5px;
 }
 
+nav a:hover {
+  background-color: var(--primary-color);
+  color: var(--quaternary-color);
+  border-style: solid;
+  border-width: medium;
+}
 footer {
   margin-top: auto;
   flex-direction: column;
@@ -129,9 +136,17 @@ footer button {
   border: none;
   font-family: var(--tertiary-font);
   font-weight: bold;
+  text-transform: uppercase;
   background-color: var(--tertiary-color);
   color: #ffffff;
   padding: 7px 15px;
+}
+
+footer button:hover {
+  background-color: var(--primary-color);
+  border-style: solid;
+  border-width: medium;
+  color: var(--quaternary-color);
 }
 
 .footer-links {
@@ -180,13 +195,15 @@ footer button {
   text-transform: uppercase;
 }
 
-.donate {
-  margin: 0 auto;
+.cta:hover {
+  background-color: var(--primary-color);
+  border-style: solid;
+  border-width: medium;
+  color: var(--quaternary-color);
 }
 
-.newsletter-signup {
-  display: flex;
-  justify-content: center;
+.donate {
+  margin: 0 auto;
 }
 
 .sign-up_cta {
@@ -221,6 +238,40 @@ p {
   font-family: var(--tertiary-font);
 }
 
+/* Common styles */
+
+.img-border_s {
+  display: flex;
+  justify-content: center;
+}
+
+.img-size_s {
+  width: 89%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--quartery-color);
+}
+
+.text-pos {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-pos {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 17px;
+  text-transform: uppercase;
+}
+
+.hide-mobile {
+  display: none;
+}
+
+/* hide classes */
 .hide-whn_small {
   display: none;
 }
@@ -278,5 +329,49 @@ p {
   .hide-whn_small {
     display: flex;
     align-items: center;
+  }
+}
+
+@media (min-width: 1100px) {
+  .gradient-border h2 {
+    width: 97%;
+  }
+
+  .content-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .flex_box {
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+  }
+
+  .button-wrap {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .btn-pos {
+    bottom: 0px;
+  }
+
+  .text-pos {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .margin-bottom {
+    margin-bottom: 40px;
+  }
+
+  .hide-mobile {
+    display: block;
+  }
+
+  .hide-desktop {
+    display: none;
   }
 }
