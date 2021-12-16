@@ -304,6 +304,11 @@ p {
   text-transform: uppercase;
 }
 
+.text-pos h4 {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+
 /* hide classes */
 .hide-mobile {
   display: none;
@@ -401,7 +406,7 @@ p {
   }
 
   .btn-pos {
-    bottom: 5px;
+    bottom: 10px;
   }
 
   .text-pos {
