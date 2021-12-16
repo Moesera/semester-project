@@ -3,7 +3,7 @@
 .hours-box {
   display: flex;
   align-items: center;
-  width: 92%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -29,6 +29,9 @@
 }
 
 @media (min-width: 730px) {
+  .gradient-border h2 {
+    width: 95%;
+  }
   .hours-box {
     width: 95%;
   }

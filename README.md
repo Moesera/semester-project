@@ -132,7 +132,7 @@ Moon cycle
 
 Ecology exhibition place
 
-child looking through steptoscope
+child looking through microscope
 
 Child painting with vr glasses
 

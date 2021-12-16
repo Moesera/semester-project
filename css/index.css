@@ -92,6 +92,10 @@ p {
 }
 
 @media (min-width: 730px) {
+  .gradient-border h2 {
+    width: 96%;
+  }
+
   .explore-exhibitions {
     flex-direction: row;
   }
