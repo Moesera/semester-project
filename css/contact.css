@@ -89,6 +89,10 @@ input[type="file"] {
   border-radius: 5px;
 }
 
+.gradient-border h2 {
+  width: 95%;
+}
+
 @media (min-width: 1100px) {
   .flex-container {
     justify-content: space-evenly;
