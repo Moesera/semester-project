@@ -109,6 +109,9 @@ nav a {
   padding: 8px;
   display: flex;
   border-radius: 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: var(--secondary-color);
 }
 
 nav a:hover {
@@ -117,6 +120,7 @@ nav a:hover {
   border-style: solid;
   border-width: medium;
 }
+
 /* Footer */
 footer {
   margin-top: auto;
@@ -150,12 +154,16 @@ footer button {
   background-color: var(--tertiary-color);
   color: #ffffff;
   padding: 7px 15px;
+  border-style: solid;
+  border-width: medium;
+  border-color: var(--secondary-color);
 }
 
 footer button:hover {
   background-color: var(--primary-color);
   border-style: solid;
   border-width: medium;
+  border-color: var(--quaternary-color);
   color: var(--quaternary-color);
 }
 
@@ -163,6 +171,7 @@ footer button:hover {
   background-color: var(--primary-color);
   border-style: solid;
   border-width: medium;
+  border-color: var(--quaternary-color);
   color: var(--quaternary-color);
 }
 
@@ -211,6 +220,9 @@ footer a {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  border-style: solid;
+  border-width: medium;
+  border-color: var(--secondary-color);
 }
 
 .cta:hover {
@@ -218,6 +230,7 @@ footer a {
   border-style: solid;
   border-width: medium;
   color: var(--quaternary-color);
+  border-color: var(--quaternary-color);
 }
 
 .donate {
@@ -226,6 +239,11 @@ footer a {
 
 .sign-up_cta {
   text-transform: uppercase;
+}
+
+p a {
+  color: var(--tertiary-color);
+  font-weight: bold;
 }
 
 /* Gradient section header */
