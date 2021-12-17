@@ -54,13 +54,29 @@
       <a href="#" class="close-popup">x</a>
     </div>
   </div>
+  <div class="popup" id="confirm-popup">
+    <div class="popup-content">
+      <h2>Order Confirmed</h2>
+      <a href="#" class="close-popup">x</a>
+    </div>
+  </div>
   <main>
     <div class="gradient-border">
       <h1>Confirm Order </h1>
     </div>
-    <div>
-      <h4>Please add your email and full name, your order will be scheduled and a confirmation for your order will be sent to you by email. 
-        If there is something you would like us to know or consider please add a comment.</h4>
+    <div class="confirm-info">
+      <h4>
+        Please add your email and full name, your order will be scheduled and a confirmation for your order will be sent to you by email. 
+        If there is something you would like us to know or consider please add a comment.
+      </h4>
+      <h2>Important!</h2>
+      <h4>
+        If you are ordering scheduled activities like limited time events, 
+        you will have to follow the time schedule stated in the current event. 
+        Write down how many people will be joining you, 
+        You will then receive confirmation by mail with a special code. 
+        If it is a regular visit to us, Please write how many, time and date for your visit.
+      </h4>
     </div>
     <section action="form-success.php" method="POST" class="flex-container">
       <div class="flex-box1">
@@ -82,7 +98,7 @@
             <input type="file">
           </div>
           <div>
-            <input class="" type="submit" value="Confirm">
+            <a class="confirm-btn" href="#confirm-popup">confirm</a>
           </div>
         </div>
     </section>

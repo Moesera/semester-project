@@ -369,6 +369,12 @@ p {
   position: relative;
 }
 
+#confirm-popup .popup-content {
+  width: 350px;
+  margin: 350px auto;
+  position: relative;
+}
+
 /* hide classes */
 .hide-mobile {
   display: none;
