@@ -44,6 +44,10 @@ h3 {
   margin-bottom: 20px;
 }
 
+.gradient-border h1 {
+  width: 90%;
+}
+
 p {
   margin: 0 auto;
   width: 90%;
@@ -93,7 +97,11 @@ p {
 
 @media (min-width: 730px) {
   .gradient-border h2 {
-    width: 96%;
+    width: 95%;
+  }
+
+  .gradient-border h1 {
+    width: 95%;
   }
 
   .explore-exhibitions {

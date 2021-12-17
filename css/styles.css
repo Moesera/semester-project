@@ -157,7 +157,7 @@ footer input[type="text"] {
   padding: 7px 15px;
   border-style: solid;
   border-width: medium;
-  border-color: var(--secondary-color);
+  border-color: var(--tertiary-color);
 }
 
 .news-signup a:hover {
@@ -223,7 +223,7 @@ footer a {
   text-transform: uppercase;
   border-style: solid;
   border-width: medium;
-  border-color: var(--secondary-color);
+  border-color: var(--tertiary-color);
 }
 
 .cta:hover {
@@ -262,7 +262,7 @@ p a {
 
 .gradient-border h2 {
   margin: 0 auto;
-  width: 91%;
+  width: 90%;
   margin-top: 20px;
   padding: 10px 0px 10px 0px;
 }
@@ -315,7 +315,7 @@ p {
 
 .text-pos h4 {
   font-family: var(--secondary-font);
-  color: var(--secondary-color);
+  color: var(--quaternary-color);
 }
 
 .popup {
@@ -380,12 +380,13 @@ p {
 
 @media (min-width: 666px) {
   .footer-links {
-    width: 50vw;
+    width: 60vw;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   footer input[type="text"] {
-    width: 42vw;
+    width: 43vw;
   }
 }
 
@@ -436,15 +437,20 @@ p {
     display: flex;
     align-items: center;
   }
+
+  .gradient-border h1 {
+    width: 90%;
+    padding: 10px 0px 10px 0px;
+  }
 }
 
 @media (min-width: 1100px) {
-  .gradient-border h2 {
+  .gradient-border h1 {
     width: 97%;
     padding: 10px 0px 10px 0px;
   }
 
-  .gradient-border h1 {
+  .gradient-border h2 {
     width: 97%;
     padding: 10px 0px 10px 0px;
   }
