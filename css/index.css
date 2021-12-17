@@ -141,4 +141,8 @@ p {
   .research-img {
     flex: 1;
   }
+
+  .hide-desktop {
+    display: none;
+  }
 }
