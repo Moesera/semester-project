@@ -42,6 +42,18 @@
     </nav>
 </header>
 <body>
+  <div class="popup" id="donate-popup">
+    <div class="popup-content">
+      <h2>Thank you for the donation</h2>
+      <a href="#" class="close-popup">x</a>
+    </div>
+  </div>
+  <div class="popup" id="signup-popup">
+    <div class="popup-content">
+      <h2>Signup succesfull !</h2>
+      <a href="#" class="close-popup">x</a>
+    </div>
+  </div>
   <main>
     <div class="gradient-border">
       <h1>Special Events & Exhibitions</h1>
@@ -134,10 +146,10 @@
   <div class="flex-wrapper">
     <div class="flex-wrapper_box">
   <div>
-      <a href="donate.html" class="donate cta">Donate</a>
+      <a href="#donate-popup" class="donate cta">Donate</a>
     </div>
       <div class="news-signup">
-        <input type="text" placeholder="Sign up for our news letter"><button>Sign up</button>
+        <input type="text" placeholder="Sign up for our news letter"><a href="#signup-popup">Sign up</a>
       </div>
       <div class="footer-links">
         <a href="email-us.html">Contact us</a>

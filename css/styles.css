@@ -146,11 +146,12 @@ footer input[type="text"] {
   justify-content: center;
 }
 
-footer button {
+.news-signup a {
   border: none;
   font-family: var(--tertiary-font);
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
   background-color: var(--tertiary-color);
   color: #ffffff;
   padding: 7px 15px;
@@ -159,7 +160,7 @@ footer button {
   border-color: var(--secondary-color);
 }
 
-footer button:hover {
+.news-signup a:hover {
   background-color: var(--primary-color);
   border-style: solid;
   border-width: medium;
@@ -315,6 +316,57 @@ p {
 .text-pos h4 {
   font-family: var(--secondary-font);
   color: var(--secondary-color);
+}
+
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.popup-content {
+  background-color: var(--primary-color);
+  border: 3px solid var(--quaternary-color);
+  border-radius: 5px;
+  padding: 20px;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.popup:target {
+  display: block;
+  z-index: 1;
+}
+
+.close-popup {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: var(--quaternary-color);
+  border: 2px solid var(--quaternary-color);
+  border-radius: 100%;
+  padding: 9px 0px 11px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 0;
+  width: 20px;
+}
+
+#donate-popup .popup-content {
+  width: 350px;
+  margin: 350px auto;
+  position: relative;
+}
+
+#signup-popup .popup-content {
+  width: 350px;
+  margin: 350px auto;
+  position: relative;
 }
 
 /* hide classes */
