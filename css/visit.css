@@ -29,11 +29,11 @@
 }
 
 @media (min-width: 730px) {
-  .gradient-border h2 {
+  .gradient-border h1 {
     width: 95%;
   }
 
-  .gradient-border h1 {
+  .gradient-border h2 {
     width: 95%;
   }
 

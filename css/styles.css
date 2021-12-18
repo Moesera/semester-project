@@ -247,6 +247,14 @@ p a {
   font-weight: bold;
 }
 
+.btn-pos {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 17px;
+  text-transform: uppercase;
+}
+
 /* Gradient section header */
 
 .gradient-border {
@@ -275,6 +283,8 @@ p a {
   font-size: 1.5em;
 }
 
+/* Common styles */
+
 h3 {
   font-family: var(--secondary-font);
   color: var(--secondary-color);
@@ -283,8 +293,6 @@ h3 {
 p {
   font-family: var(--tertiary-font);
 }
-
-/* Common styles */
 
 .img-border_s {
   display: flex;
@@ -305,23 +313,16 @@ p {
   margin-bottom: 20px;
 }
 
-.btn-pos {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 17px;
-  text-transform: uppercase;
-}
-
 .text-pos h4 {
   font-family: var(--secondary-font);
   color: var(--quaternary-color);
 }
 
+/* Popup window */
 .popup {
   position: fixed;
-  left: 0;
-  top: 0;
+  left: 0px;
+  top: 0px;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
@@ -353,25 +354,25 @@ p {
   padding: 9px 0px 11px;
   text-decoration: none;
   text-align: center;
-  line-height: 0;
+  line-height: 0px;
   width: 20px;
 }
 
 #donate-popup .popup-content {
-  width: 350px;
-  margin: 350px auto;
+  width: 320px;
+  margin: 300px auto;
   position: relative;
 }
 
 #signup-popup .popup-content {
-  width: 350px;
-  margin: 350px auto;
+  width: 320px;
+  margin: 300px auto;
   position: relative;
 }
 
 #confirm-popup .popup-content {
-  width: 350px;
-  margin: 350px auto;
+  width: 320px;
+  margin: 300px auto;
   position: relative;
 }
 
@@ -382,6 +383,14 @@ p {
 
 .hide-whn_small {
   display: none;
+}
+
+.hide-menu-label {
+  display: none;
+}
+
+.hide-hambrgr-label {
+  display: block;
 }
 
 @media (min-width: 666px) {
@@ -424,6 +433,11 @@ p {
     margin-bottom: 20px;
   }
 
+  .gradient-border h1 {
+    width: 90%;
+    padding: 10px 0px 10px 0px;
+  }
+
   .flex-wrapper {
     display: flex;
   }
@@ -442,11 +456,6 @@ p {
   .hide-whn_small {
     display: flex;
     align-items: center;
-  }
-
-  .gradient-border h1 {
-    width: 90%;
-    padding: 10px 0px 10px 0px;
   }
 }
 
@@ -497,6 +506,14 @@ p {
 
   .hide-mobile {
     display: block;
+  }
+
+  .hide-menu-label {
+    display: block;
+  }
+
+  .hide-hambrgr-label {
+    display: none;
   }
 
   .hide-desktop {
