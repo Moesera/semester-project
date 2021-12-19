@@ -119,6 +119,7 @@ nav a:hover {
   color: var(--quaternary-color);
   border-style: solid;
   border-width: medium;
+  border-color: var(--quaternary-color);
 }
 
 /* Footer */
