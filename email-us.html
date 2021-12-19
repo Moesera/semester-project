@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width , initial-scale=1.0">
-  <meta name="description" content="Contact us" />
-  <script src="https://kit.fontawesome.com/d527618ed6.js" crossorigin="anonymous"></script>
-  <link href="css/styles.css" rel="stylesheet">
-  <link href="css/contact.css" rel="stylesheet">
-  <title>Community Science Museum | Contact Us </title>
-</head>
-<header>
-  <div class="logo-container">
-    <a href="index.html"><img class="logo" src="images/logo/Open-Science-logo.png"  alt="Community Science Museum logo"></a>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <meta name="description" content="Contact us" />
+    <script src="https://kit.fontawesome.com/d527618ed6.js" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <title>Community Science Museum | Contact Us</title>
+  </head>
+  <header>
+    <div class="logo-container">
+      <a href="index.html"><img class="logo" src="images/logo/Open-Science-logo.png" alt="Community Science Museum logo" /></a>
+    </div>
     <div class="icons-container">
-    <div>
-      <a href="special-events.html"><img class="planner-icon" src="icons/icons8-planner-80.png" alt="Calendar icon"></a>
+      <div>
+        <a href="special-events.html"><img class="planner-icon" src="icons/icons8-planner-80.png" alt="Calendar icon" /></a>
+      </div>
+      <div>
+        <a href="visit.html#location"><img class="place-marker" src="icons/icons8-place-marker-80.png" alt="location icon" /></a>
+      </div>
+      <div>
+        <a href="explore.html"><img class="tickets-icon" src="icons/icons8-two-tickets-512.png" alt="Ticket icon" /></a>
+      </div>
     </div>
-    <div>
-      <a href="visit.html#location"><img class="place-marker" src="icons/icons8-place-marker-80.png" alt="location icon"></a>
-    </div>
-    <div>
-      <a href="explore.html"><img class="tickets-icon" src="icons/icons8-two-tickets-512.png" alt="Ticket icon"></a>
-    </div>
-  </div>
-  <input type="checkbox" id="hamburger-menu">
+    <input type="checkbox" id="hamburger-menu" />
     <label for="hamburger-menu" class="hide-desktop hamburger-label" alt="hamburger menu"><i class="fas fa-bars"></i></label>
     <label for="hamburger-menu" class="hide-mobile menu-label">Menu</label>
     <nav>
@@ -37,74 +37,72 @@
         <li><a href="explore.html">Explore</a></li>
         <li><a href="get-involved.html">Get involved</a></li>
         <li><a href="visit.html#about-us">About us</a></li>
-        <li><a href="contact.html"class="current">Contact</a></li>
+        <li><a href="contact.html" class="current">Contact</a></li>
       </ul>
     </nav>
-</header>
-<body>
-  <div class="popup" id="donate-popup">
-    <div class="popup-content">
-      <h2>Thank you for the donation !</h2>
-      <a href="#" class="close-popup">x</a>
-    </div>
-  </div>
-  <div class="popup" id="signup-popup">
-    <div class="popup-content">
-      <h2>Signup succesfull !</h2>
-      <a href="#" class="close-popup">x</a>
-    </div>
-  </div>
-  <main>
-    <div class="gradient-border">
-      <h1>Contact Us</h1>
-    </div>
-    <div>
-      <h4>Contact us through this form if you have any issues or questions to us at Community Science Museum</h4>
-    </div>
-    <section action="form-success.php" method="POST" class="flex-container">
-      <div class="flex-box1">
-        <div>
-          <form>Email:</form>
-            <input type="email" name="email" required>
-        </div>
-        <div>
-          <form>Full Name:</form>
-          <input type="text" name="fullname" required>
-        </div>
+  </header>
+  <body>
+    <div class="popup" id="donate-popup">
+      <div class="popup-content">
+        <h2>Thank you for the donation !</h2>
+        <a href="#" class="close-popup">x</a>
       </div>
-          <div class="comment-box">
-            <label for="message">Comment:</label>
-            <textarea id="message" name="message"> </textarea>
-          </div>
-        <div class="flex-box2">
-          <div class="add-file-flex" >
-            <input type="file">
+    </div>
+    <div class="popup" id="signup-popup">
+      <div class="popup-content">
+        <h2>Signup succesfull !</h2>
+        <a href="#" class="close-popup">x</a>
+      </div>
+    </div>
+    <main>
+      <div class="gradient-border">
+        <h1>Contact Us</h1>
+      </div>
+      <div>
+        <h4>Contact us through this form if you have any issues or questions to us at Community Science Museum</h4>
+      </div>
+      <section action="form-success.php" method="POST" class="flex-container">
+        <div class="flex-box1">
+          <div>
+            <form>Email:</form>
+            <input type="email" name="email" required />
           </div>
           <div>
-            <input type="submit" value="Send">
+            <form>Full Name:</form>
+            <input type="text" name="fullname" required />
           </div>
         </div>
-    </section>
-  </main>
-<footer>
-  <div class="flex-wrapper">
-    <div class="flex-wrapper_box">
-  <div>
-      <a href="#donate-popup" class="donate cta">Donate</a>
-    </div>
-      <div class="news-signup">
-        <input type="text" placeholder="Sign up for our news letter"><a href="#signup-popup">Sign up</a>
-      </div>
-      <div class="footer-links">
-        <a href="email-us.html">Contact us</a>
-          <a href="special-events.html">Events</a>
+        <div class="comment-box">
+          <label for="message">Comment:</label>
+          <textarea id="message" name="message"> </textarea>
+        </div>
+        <div class="flex-box2">
+          <div class="add-file-flex">
+            <input type="file" />
+          </div>
+          <div>
+            <input type="submit" value="Send" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="flex-wrapper">
+        <div class="flex-wrapper_box">
+          <div>
+            <a href="#donate-popup" class="donate cta">Donate</a>
+          </div>
+          <div class="news-signup"><input type="text" placeholder="Sign up for our news letter" /><a href="#signup-popup">Sign up</a></div>
+          <div class="footer-links">
+            <a href="email-us.html">Contact us</a>
+            <a href="special-events.html">Events</a>
             <a href="visit.html#about-us">About us</a>
-              <a href="get-involved.html">Get involved</a>
+            <a href="get-involved.html">Get involved</a>
           </div>
           <p>Icons are from icons8.com</p>
           &copy; Tony Erlandsen 2021 | Community Science Museum
         </div>
       </div>
-      </footer>
+    </footer>
   </body>
 </html>
