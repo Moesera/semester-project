@@ -7,6 +7,12 @@
   margin: 0 auto;
 }
 
+.hours-box h2 {
+  font-family: var(--secondary-font);
+  font-size: 1.2em;
+  color: var(--secondary-color);
+}
+
 .margin-gap {
   margin-top: 20px;
   margin-bottom: 20px;

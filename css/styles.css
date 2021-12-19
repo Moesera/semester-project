@@ -14,8 +14,7 @@
 
 @font-face {
   font-family: "Merriweather";
-  src: url(../fonts/Merriweather_Sans/static/MerriweatherSans-Regular.ttf)
-    format("truetype");
+  src: url(../fonts/Merriweather_Sans/static/MerriweatherSans-Regular.ttf) format("truetype");
 }
 
 /* body */
@@ -259,11 +258,7 @@ p a {
 /* Gradient section header */
 
 .gradient-border {
-  background-image: linear-gradient(
-    to left,
-    var(--quaternary-color),
-    var(--secondary-color)
-  );
+  background-image: linear-gradient(to left, var(--quaternary-color), var(--secondary-color));
   color: #ffffff;
   font-family: var(--header-font);
   margin: 0 auto;
@@ -318,6 +313,12 @@ p {
 .text-pos h4 {
   font-family: var(--secondary-font);
   color: var(--quaternary-color);
+}
+
+.text-pos h2 {
+  font-family: var(--secondary-font);
+  font-size: 1.2em;
+  color: var(--secondary-color);
 }
 
 /* Popup window */
