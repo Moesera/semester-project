@@ -44,6 +44,16 @@ h3 {
   margin-bottom: 20px;
 }
 
+h2 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: var(--secondary-font);
+  font-size: 1.2em;
+  color: var(--secondary-color);
+}
+
 .gradient-border h1 {
   width: 90%;
 }
