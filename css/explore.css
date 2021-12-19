@@ -108,6 +108,10 @@
   color: var(--secondary-color);
 }
 
+.dropdown-box a:hover {
+  text-decoration: underline;
+}
+
 .dropdown-box {
   border-color: var(--quaternary-color);
   border-style: solid;
