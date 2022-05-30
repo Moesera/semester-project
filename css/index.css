@@ -85,6 +85,10 @@ p {
   margin-bottom: 50px;
 }
 
+.exhibition-places h2 {
+  color: var(--secondary-color);
+}
+
 .hide-mobile {
   display: none;
 }
