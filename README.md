@@ -4,7 +4,7 @@
 
 ## Description
 
-This is my first year semester project.
+This is my first year semester project.<br>
 This is a site for an interactive museum for kids and families.
 
 ## Built with
