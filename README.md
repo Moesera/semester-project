@@ -61,7 +61,7 @@ To contribute to the project please follow these steps:
 - Fork the repository.
 - Submit a pull request to the project when you are done on the contribution.
 
-If you want to know more about forking, pull requests and contributing to a project follow this link <a target="_blank" href="https://docs.github.com/en/get-started/quickstart/contributing-to-projects">Contribution to projects</a>
+If you want to know more about forking, pull requests and contributing to a project follow this link [Contribution to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
 
 ## Contact
 
