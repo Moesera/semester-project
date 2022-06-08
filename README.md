@@ -15,6 +15,7 @@ This is a site for an interactive museum for kids and families.
 
 ## Getting started
 
+
 ### Installing
 
 Option for contribution:
@@ -24,7 +25,7 @@ Option for contribution:
 - Above the list of files, click Code.
 - Open with Github Desktop
 
-Choose either:
+Or chose either:
 
 - HTTPS, SSH or Github CLI and copy the link
 
@@ -32,11 +33,8 @@ Then:
 
 - Open Git Bash
 - Change the current working directory to the location you want it
-- Type `git clone https://github.com/YOUR-USERNAME/semester-project` and press enter.
-  Your local clone will be created.
-
-### Running
-
+- Type `git clone https://github.com/YOUR-USERNAME/project-exam-1-Sigvel` and press enter.
+  Your local clone will then be created.
 
 ## Contributing
 
