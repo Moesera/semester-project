@@ -10,24 +10,12 @@ This is a site for an interactive museum for kids and families.
 
 ## Built with
 
-- HTML
-- CSS
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Getting started
 
 ### Installing
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:Sigvel/semester-project.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
 
 Option for contribution:
 
@@ -49,11 +37,6 @@ Then:
 
 ### Running
 
-To run the app, run the following command:
-
-```bash
-npm run start
-```
 
 ## Contributing
 
