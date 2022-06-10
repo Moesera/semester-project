@@ -8,6 +8,7 @@
 This is my first year semester project.<br>
 This is a site for an interactive museum for kids and families.
 
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://gallant-bassi-4a5676.netlify.app/)
 ## Built with
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
