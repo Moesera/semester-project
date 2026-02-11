@@ -1,4 +1,4 @@
-# Semester Project 1
+# Museum
 
 ![readme-homepage_img](https://user-images.githubusercontent.com/89355439/171044425-7c1bf2d5-28b9-4242-890e-b0c3fb39e255.jpg)
 
